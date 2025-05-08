@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.Manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+.Lato{
+  font-family: "Lato", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+ @font-face {
+  font-family: "Avenir";  
+src: url("./assets/fonts/AvenirLTStdBook.otf") format("opentype"); 
+font-style: normal
+}
+@import "tailwindcss";
+
+/* .Lt{
+  font-family: "Lt ",;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+} */
+
+
+
+
+
+@theme { 
+  --font-Avenir:"Avenir";
+  --font-Lato:"Lato";
+  --font-Manrope:"Manrope";
+
+   --color-Button:#FCC378;
+  --color-BgLight:#FFF4EF;
+   --color-primary:#FFC6AF;
+  --color-Background: ##FFE8DF;
+  --color-Heading:#F16A77;
+  --color-Dark:#282828;
+  --color-Dark-Light:rgba(40, 40, 40, 0.30);
+  --color-Black:#000;
+ 
+
+
+  --radius-primary: 20px;
+  --radius-inps: 10px;
+ 
+  --shadow-primary:0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  --shadow-sec:  0px 2px 5px 0px rgba(255, 198, 175, 0.50);
+  --shadow-outerdiv:  0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-innerdiv: 0px 0px 4px 0px rgba(252, 195, 120, 0.25);
+  
+  --blur-main: 28px;
+
+  --drop-shadow-primary:  0px 4px 40px rgba(86, 108, 251, 0.42);
+} 
+
+@layer components {
+  .h1{
+    font-family: Manrope;
+    font-size: 44px;
+   
+   
+  }
+  .h2{
+    font-family: Manrope;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .h3{
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .h4{
+    font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+.B1{
+  font-family: Manrope;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.B2{
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.B3{
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.B4{
+  font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.B5{
+  font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.B6{
+  font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color:  #282828;
+}
+.B7{
+  font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.B8{
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+}
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.abc .rdt_TableRow{
+  border:none !important;
+}
+
+.abc .kvthUX {
+  display: flex;
+  justify-content: space-evenly;
+}
+.css-dev-only-do-not-override-1v5z42l .ant-modal{
+  padding-bottom: 0PX;
+}
+.override-1v5z42l .ant-modal .ant-modal-content {
+  padding: 0 !important;
+}
+ .custommodal.ant-modal .ant-modal-content{
+  padding: 0 !important;
+}
+
+.history-modal.ant-modal .ant-modal-content{
+  padding: 0 !important;
+}
+
+.custom-select-dropdown .ant-select-selector {
+  background-color: #FFF4EF !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.timer .ant-select-selector {
+  background-color: #FFF4EF !important;
+}
