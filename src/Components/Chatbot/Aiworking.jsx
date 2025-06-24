@@ -7,7 +7,7 @@ import { FaToggleOn } from "react-icons/fa";
 import { IoCalendarOutline } from "react-icons/io5";
 import { FaEdit } from "react-icons/fa";
 import MDICON from "./../../assets/images/Mdicon.png";
-import Verticalimg from "../../assets/images/leftvertical.png";
+import veritcal from "../../assets/images/leftvertical.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import jackimg from "./../../assets/images/Jack.png";
 import jackchat from "./../../assets/images/jackpofile.png";
@@ -85,7 +85,7 @@ const Aiworking = () => {
         </div>
 
         <div className="buttonouter flex  w-full px-[17px] gap-[10px] justify-between ">
-          <img src={Verticalimg} alt="" className="justify-self-start pb-4" />
+          <img src={veritcal} alt="" className="justify-self-start pb-4" />
           <div className=" justify-between w-[160px] pt-1  flex flex-col  bg-dark bg-opacity-30 gap-[6px]">
             <button className="text-[12px] p-[10px] rounded-[4px] text-Dark w-[160px] h-[34px] bg-[#F7F7F7] font-Lato">
               Tell me about services y...
