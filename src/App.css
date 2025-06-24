@@ -1,0 +1,40 @@
+
+
+.theme-table .ant-table {      background: transparent;}
+.ant-table{
+    background: transparent;
+}
+
+.ant-table-thead .ant-table-cell {
+    color: #FFCE40;
+    font-size: 18px;
+    font-weight: 600;
+    /* background: rgba(72, 72, 72, 0.42) !important; */
+    border-bottom: none;
+    border-radius: 0;
+    text-align: between !important;
+    border: none !important;
+
+  }
+  .ant-table-tbody     .ant-table-cell {
+    color: white !important;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none !important;
+    border-radius: 0;
+    text-align: between !important;
+  }
+
+    /* .ant-table-row:nth-child(even) {
+        background: rgba(72, 72, 72, 0.42);
+      } */
+.ant-table {
+    background: transparent;
+
+
+  }
+
+  .datatable-wrapper {
+    overflow: auto;
+  }
