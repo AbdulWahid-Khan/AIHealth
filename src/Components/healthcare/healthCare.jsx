@@ -10,7 +10,7 @@ import topimg from "./../../assets/images/topimage.png";
 import anaspic from "./../../assets/images/Anasimage.png";
 import henrypic from "./../../assets/images/Henryimage.png";
 import zorropic from "./../../assets/images/Zorroimage.png";
-import jamespic from "./../../assets/images/jamesimage.png";
+import jamespic from "./../../assets/images/Jamesimage.png";
 import { BsSendFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 
