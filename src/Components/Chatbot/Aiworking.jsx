@@ -7,7 +7,7 @@ import { FaToggleOn } from "react-icons/fa";
 import { IoCalendarOutline } from "react-icons/io5";
 import { FaEdit } from "react-icons/fa";
 import MDICON from "./../../assets/images/Mdicon.png";
-import Verticalimg from "../../assets/images/vertical.png";
+import Verticalimg from "../../assets/images/leftvertical.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import jackimg from "./../../assets/images/Jack.png";
 import jackchat from "./../../assets/images/jackpofile.png";
